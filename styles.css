@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  padding: 10px 0;
+}
+
+.header a,
+.header div {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-flex-elem-1 {
+  flex-basis: 55%;
+}
+
+.hero-flex-elem-2 {
+  flex-basis: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(226, 223, 223);
+  padding: 10px;
+}
+
+.hero-flex-elem-1 span {
+  color: rgb(68, 68, 234);
+}
+
+.hero-flex-elem-1 h2 {
+  margin-bottom: 20px;
+}
+
+.hero-flex-elem-2 span {
+  font-size: 70px;
+}
+
+.outlined-letter {
+  -webkit-text-stroke: 2px rgb(68, 68, 234);
+  color: white;
+}
+
+.full-width {
+  flex-basis: 100%;
+  color: black;
+}
+
+.review-section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #b0dfde;
+  padding: 10px;
+}
+
+.review-titles {
+  flex-basis: 100%;
+}
+
+.review-descr {
+  flex-basis: 100%;
+}
+
+.review-video {
+  flex-basis: 30%;
+}
+
+.partner-logos {
+  flex-basis: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+.logo-cnt {
+  box-sizing: border-box;
+  flex-basis: 24%;
+  max-width: 24%;
+  height: 50px;
+  padding: 8px;
+  overflow: hidden;
+}
+
+.logo-cnt img {
+  width: 100%;
+  height: inherit;
+}
+
+.course-section {
+  background-color: gray;
+}
+
+.course-section-title {
+  text-align: center;
+  color: white;
+}
+
+.course-section-title span {
+  color: rgb(181, 90, 57);
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.course-card {
+  border: 1px solid gray;
+  border-radius: 50px;
+  flex-basis: 30%;
+  overflow: hidden;
+}
+
+.course-card-body {
+  padding: 10px 0;
+  justify-content: space-around;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+}
+
+.course-card-footer {
+  background-color: rgb(33, 28, 28);
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.complex-text,
+.course-fulnes {
+  color: rgb(181, 90, 57);
+}
+.course-card img {
+  width: 50px;
+  height: 50px;
+}
+
+.review-titles {
+  text-align: center;
+}
+
+.review-titles p {
+  color: rgb(181, 90, 57);
+  font-size: 25px;
+}
+
+.review-descr {
+  max-width: 80%;
+  margin: 0 auto 20px auto;
+}
+
+.review-video img {
+  width: 100%;
+}
+
+.complex-text {
+  color: rgb(68, 68, 234);
+}
+
+.course-details {
+  margin: 10px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  flex-grow: 1;
+  background-color: black;
+  color: white;
+  height: 25px;
+  vertical-align: center;
+}
+
+.footer img {
+  height: 25px;
+}
